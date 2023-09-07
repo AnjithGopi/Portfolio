@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjith Gopi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Anjith Gopi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="resume">Resume</a></li>
+                 <li><a href="skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+                
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Anjith Gopi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Project</a></li>
+                <li><a href="resume" onclick="togglemenu()">Resume</a></li>
+                <li><a href="skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+           
+             </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container"> 
+            <img src="images/WhatsApp Image 2023-09-07 at 02.43.41.jpeg" alt="Anjith Gopi profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm</p>
+            <h1 class="title">Anjith Gopi</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('images/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact info</button>
+            </div>
+            <div class="socials-container">
+                <img src="images/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com'">
+                <img src="images/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com'">
+
+            </div>
+        </div>
+
+
+    </section>
+    <section id="about">
+        <!-- <p class="section__text__p1">Get To Know More</p> -->
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <!-- <img
+              src="./images/WhatsApp Image 2023-09-07 at 02.43.41.jpeg"
+              alt="Profile picture"
+              class="about-pic"
+            /> -->
+            <div class="text-container">
+                <p>
+                  A 25 year old passionate Frontend developer from Kochi, Kerala.
+                   I am currentlychasing my passion which is Doing creative things ,
+                    that includes developing websites,software applications well as many other things. My goal is to nurture my passion and make an earning from it.
+                    There is My resume attached just below check that out if you are interested , And also don't forget to scroll down and see the rest of my website.
+                </p>
+              </div> 
+
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./images/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+
+                <h3>Experience</h3>
+                <p>6 months experience in <br />Frontend Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./images/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Bachelor of Computer Application</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <img
+          src="./images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  
+                  
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+               
+                
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Programming Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C Programming</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3> Java </h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3> Java Script</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./images/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="about">
+       
+        <h1 class="title">Services</h1>
+        <p class="section__text__p1">What I do</p>
+        
+        <div class="section-container">
+          <div class="section__pic-container">
+            <!-- <img
+              src="./images/education.png" 
+              alt="Profile picture"
+              class="about-pic"
+            /> -->
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container1">
+                <img
+                  src="./images/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h2>Web Design</h2>
+                <p>Wire frames and Template designs</p>
+              </div>
+              <div class="details-container2">
+                <img
+                  src="./images/experience.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h2>Web Development</h2>
+                <p>Scripting  Styling   Hosting</p>
+              </div>
+            </div>
+            <div class="text-container1">
+              <p>
+                I provide comprehensive web design and development services tailored to your unique needs.
+                 From concept to deployment, I create and build visually appealing, responsive websites that
+                  not only look great but also function flawlessly. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+  
+  
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/logos.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Netflix</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AnjithGopi/Netflix-clone'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://anjithgopi.github.io/Netflix-clone/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/pngwing.com.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Swiggy</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AnjithGopi/Swiggy-clone'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://anjithgopi.github.io/Swiggy-clone/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/preview.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Build Con</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./images/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <!---------------Contact--------------------------------->>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./images/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="https://www.gmail.com">Gmail</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./images/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+     
+      <!---------------validation ------------>
+      <div class="validation">
+
+        
+        
+
+
+        <form name="submit-to-google-sheet">
+
+          <label>Name:</label><br>
+          <input type="text" name="name" required><br><br>
+          
+          <label>Email:</label><br>
+          <input type="email" name="email" required><br><br>
+          
+          <label >Gender</label><br>
+          <input type="radio" name="gender" value="Male"><label >Male</label>
+          <input type="radio" name="gender" value="female"><label >Female</label>
+          <br><br>
+          <label >message</label><br>
+          <textarea name="message"  cols=" 20" required >
+  
+          </textarea><br><br>
+          <div class="submit_button">
+            <input type="submit" name="submit">
+
+          </div>
+          
+          <span id="success"></span><br>
+  
+        </form>
+  
+  
+      </div>
+
+      
+
+      <!----------------fOOTER---------------------->
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>All Rights Reserved @ Anjith Gopi</p>
+      </footer>
+
+      <!---------Script (Google Sheets Link)------------------>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxuijvlXy_GonkQNTmMKLXlWWf0Qmc3rURSqnZLFwOXn6EGdIhjAmRpJ6zhK06tz0IH/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const success=document.getElementById('success')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              success.innerHTML="Data successfully submit";
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+        
+      
+    <script src="JSS/main.js"></script>
+  
+</body>
+</html>
